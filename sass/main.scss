@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One');
+@import url('https://fonts.googleapis.com/css?family=Overlock');
+
+
+body {
+  background-color: #1aa3ff;
+  margin: 0 auto;
+  margin-top: 50px;
+  color: black;
+  font-size: 15px;
+  background-color: white;
+  text-align: center;
+}
+
+/* .chat {
+  display: none;
+} */
+
+
+h1 {
+  font-family: 'Sigmar One', cursive;
+  color: #000080;
+}
+
+
+
+input {
+  width: 30%;
+  border-color: darkgrey;
+  border-bottom: 5px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: lightgrey;
+  font-size: 15px;
+  font-family: 'Overlock', cursive;
+}
+
+
+form ul {
+  text-decoration: none;
+}
+
+
+button {
+  font-weight: bolder;
+  border: none;
+  margin-top: 20px;
+  font-family: 'Overlock', cursive;
+  font-size: 15px;
+  background-color: darkgrey;
+  color: #000080;
+  padding: 5px;
+}

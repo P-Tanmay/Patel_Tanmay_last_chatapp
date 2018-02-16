@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Socket IO Chat with Node!</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+		<h1>Hello,  This is Chatbox</h1>
+		<form>
+		<input type="text" class="username" placeholder="who is user?">
+		<p class="alertText"></p>
+		<ul id="messages"></ul>
+		<input class="message" type="text" id="m" autocomplete="off" placeholder="message"><br><br>
+		<button>send</button>
+		</form>
+
+
+
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/main.js"></script>
+</html>
