@@ -1,20 +1,21 @@
 {
-  "name": "chat-last",
+  "name": "Chatapp",
   "version": "1.0.0",
   "description": "",
-  "main": "Gruntfile.js",
-  "dependencies": {
-    "grunt": "^1.0.2",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-uglify": "^3.3.0",
-    "grunt-contrib-uglify-es": "^3.3.0",
-    "grunt-contrib-watch": "^1.0.0"
-  },
-  "devDependencies": {},
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "Tanmay Patel",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
 }
